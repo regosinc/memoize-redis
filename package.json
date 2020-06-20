@@ -1,13 +1,13 @@
 {
   "name": "@regosinc/promise-memoize-redis",
-  "version": "1.3.0",
+  "version": "1.3.1",
   "description": "Memoize promise-returning functions. Includes cache expire and prefetch.",
   "keywords": [
     "promise",
     "memoize",
     "cache"
   ],
-  "repository": "nodeca/promise-memoize",
+  "repository": "https://github.com/regosinc/promise-memoize-redis",
   "license": "MIT",
   "files": [
     "index.js",
