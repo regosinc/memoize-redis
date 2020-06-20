@@ -1,6 +1,6 @@
 {
   "name": "@regosinc/promise-memoize-redis",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Memoize promise-returning functions. Includes cache expire and prefetch.",
   "keywords": [
     "promise",
