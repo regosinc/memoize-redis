@@ -51,7 +51,7 @@ Memoize function `fn`.
    castable to strings (see below).
  - **options** — options for memoization (optional)
    - **maxAge** — an amount of milliseconds it should cache resolved
-     values for (default: `Infinity`, i.e. cache forever).
+     values for (default: `600`, i.e. cache 10 minutes).
    - **maxErrorAge** — an amount of milliseconds it should cache
      rejected values for (default: `0`, i.e. don't cache).
    - **resolve** — serialiser to build unique key from `fn` arguments.
@@ -61,6 +61,10 @@ Memoize function `fn`.
      - function(Array) — custom function, with `fn` params as array on input
      - `[ String, Boolean, 'json', function ]` — array with custom functions,
        specific for each `fn` param position (text shortcuts as above are allowed).
+    - driver - the storage driver that will be used to cache the results (default: `{ type: 'memory' }`). Available types:
+      - `memory` (string) — the cache key/value pairs are stored in memory
+      - `redis` (object) — the cache key/value pairs are stored using redis
+        - options (object) — the options accepted by the redis client https://www.npmjs.com/package/redis#options-object-properties
 
 Return value is a function with the same signature as *fn*.
 
