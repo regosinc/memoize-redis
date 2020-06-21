@@ -1,8 +1,6 @@
 # promise-memoize
 
-[![Build Status](https://img.shields.io/travis/nodeca/promise-memoize/master.svg?style=flat)](https://travis-ci.org/nodeca/promise-memoize)
-[![NPM version](https://img.shields.io/npm/v/promise-memoize.svg?style=flat)](https://www.npmjs.org/package/promise-memoize)
-[![Coverage Status](https://coveralls.io/repos/github/nodeca/promise-memoize/badge.svg?branch=master)](https://coveralls.io/github/nodeca/promise-memoize?branch=master)
+[![NPM version](https://img.shields.io/npm/v/@regosinc/memoize-redis.svg?style=flat)](https://www.npmjs.org/package/memoize-redis)
 
 > Memoize promise-returning functions. Includes cache expire and prefetch.
 
